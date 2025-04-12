@@ -2,7 +2,10 @@ import React from 'react'
 
 function profilePage() {
   return (
-    <div>profilePage</div>
+    <div>
+
+        
+    </div>
   )
 }
 

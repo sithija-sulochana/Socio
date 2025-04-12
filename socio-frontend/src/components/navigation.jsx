@@ -1,7 +1,7 @@
 "use client"
 import { Input } from "@/components/ui/input"
 import { Bell, Home, MessageSquare, User } from "lucide-react"
-
+import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 
@@ -13,10 +13,10 @@ function Navigation() {
         {/* Left side - Logo */}
         <div className="flex items-inline justify-start">
         <img src="https://img.icons8.com/?size=100&id=12771&format=png&color=000000" alt="" className="w-[50px]" />
-          <a href="/" className="font-bold text-white text-2xl md:text-3xl mt-[5px] mr-3">
+          <Link to="/" className="font-bold text-white text-2xl md:text-3xl mt-[5px] mr-3">
        
             Socio
-          </a>
+          </Link>
         </div>
 
         {/* Middle - Search */}

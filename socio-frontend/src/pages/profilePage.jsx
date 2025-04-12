@@ -42,7 +42,7 @@ function ProfilePage() {
               <div>
                 {/* This is user name/petnames */}
                 <h1 className="text-2xl font-bold text-gray-900"> </h1>
-                <p className="text-gray-600"></p>
+                <p className="text-gray-600">   </p>
               </div>
               <div className="flex space-x-2 mt-4 sm:mt-0">
                 <Button className="bg-blue-600 hover:bg-blue-700">
@@ -62,34 +62,37 @@ function ProfilePage() {
         {/* Bio and Stats */}
         <div className="bg-white rounded-lg shadow-sm p-6 mt-4">
             {/* user description */}
-            //! user description
+         
           <p className="text-gray-700">
-            {'//This is the description'}
+            {/* This is the description */}
+            {/* //!paste the description here */}
+
+
           </p>
           <div className="flex items-center text-sm text-gray-500 mt-2">
             
-            //! this is the country and city details
+            {/* //! this is the country and city details */}
             <span>📍 New York, NY</span>
             <span className="mx-2">•</span>
-            //! another social media or links
+            {/* //! another social media or links */}
             <span>🔗 instagram.com/johndoe</span>
           </div>
 
           {/* Stats */}
           <div className="flex flex-wrap gap-6 mt-4 pt-4 border-t">
             <div className="text-center">
-                //! Birthday of user
+                {/* //! Birthday of user */}
               <div className="text-xl font-bold"></div>
-              //! number of posts
+              {/* //! number of posts */}
               <div className="text-gray-500 text-sm">Posts</div>
             </div>
             <div className="text-center">
-                //! Followers
+                {/* //! Followers */}
               <div className="text-xl font-bold"></div>
               <div className="text-gray-500 text-sm">Followers</div>
             </div>
             <div className="text-center">
-                //! Following
+                {/* //! Following */}
               <div className="text-xl font-bold"></div>
               <div className="text-gray-500 text-sm">Following</div>
             </div>

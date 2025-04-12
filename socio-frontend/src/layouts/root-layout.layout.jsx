@@ -1,11 +1,13 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-function rootlayout() {
+import { Outlet } from "react-router";
+import { Toaster } from "@/components/ui/sonner";
+
+const RootLayout = () => {
   return (
     <>
-    <Outlet />
+      <Outlet />
+      <Toaster />
     </>
-  )
-}
+  );
+};
 
-export default rootlayout
+export default RootLayout;

@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Use 'react-r
 import RootLayout from '@/layouts/root-layout.layout'; // Use proper casing
 import MainLayout from '@/layouts/main.layout'; // Assuming MainLayout is another layout component
 import HomePage from '@/pages/homePage'; // Capitalized HomePage
+import ProfilePage from '@/pages/profilePage'; // Capitalized ProfilePage
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,8 @@ createRoot(document.getElementById('root')).render(
           <Route element={<MainLayout />}>
             {/* Route for your main app */}
             <Route path="/" element={<HomePage />} />
+            
+            <Route path="/profile" element={<ProfilePage />} /> {/* Corrected ProfilePage Route */}
           </Route>
         </Route>
       </Routes>

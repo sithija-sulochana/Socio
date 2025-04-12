@@ -62,7 +62,7 @@ function Navigation() {
         {/* Right side - Navigation Icons (hidden on mobile) */}
         <div className="hidden md:flex items-center space-x-1 md:space-x-3">
           <Button variant="ghost" size="icon" className="text-white hover:bg-gray-800" asChild>
-            <Link to="/home">
+            <Link to="/">
               <Home className="h-5 w-5" />
               <span className="sr-only">Home</span>
             </Link>
@@ -105,7 +105,7 @@ function Navigation() {
             </SheetTrigger>
             <SheetContent side="right" className="bg-gray-900 text-white border-gray-800">
               <div className="flex flex-col space-y-4 mt-6">
-                <Link to="/home" className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-800">
+                <Link to="/" className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-800">
                   <Home className="h-5 w-5" />
                   <span>Home</span>
                 </Link>

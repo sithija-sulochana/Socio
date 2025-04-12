@@ -4,7 +4,7 @@ import Sidebar from '@/components/sideBar'
 function homePage() {
   return (
     <div>
-        <Navigation />
+       
         <Sidebar />
       
         

@@ -1,20 +1,14 @@
-// main.layout.jsx
-import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet } from "react-router";
+import Navigation from "@/components/Navigation";
+import { useState } from "react";
 
-const MainLayout = () => {
+function MainLayout() {
   return (
-    <div>
-      <header>
-        
-        {/* Add any other header content you need */}
-      </header>
-      <main>
-        {/* Render child routes inside this layout */}
-        <Outlet />
-      </main>
-    </div>
+    <>
+      <Navigation  />
+      <Outlet />
+    </>
   );
-};
+}
 
 export default MainLayout;
